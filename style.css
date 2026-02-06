@@ -220,3 +220,64 @@ footer { padding: 40px; text-align: center; background: #111; color: #666; font-
 .nav-links a:hover {
     color: white;
 }
+/* WhatsApp Specific Button */
+.whatsapp-btn {
+    background-color: #25D366; /* Official WhatsApp Green */
+    color: white;
+    border: none;
+    transition: var(--transition);
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+    color: white;
+}
+
+/* Ensure the icon has a little space */
+.whatsapp-btn i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+/* Shared Button Base Animation */
+.btn {
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Email / Primary Button Animation */
+.email-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.email-btn:hover {
+    transform: translateY(-5px); /* Lift up */
+    box-shadow: 0 10px 20px rgba(0, 212, 255, 0.4); /* Cyan glow */
+    background-color: #ffffff; /* Turns white on hover for contrast */
+    color: var(--primary-color);
+}
+
+/* WhatsApp Button Animation */
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-5px); /* Lift up */
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.4); /* Green glow */
+    background-color: #ffffff; 
+    color: #128C7E;
+}
+
+/* Icon Spacing */
+.btn i {
+    margin-right: 8px;
+}
